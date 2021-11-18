@@ -1,0 +1,104 @@
+* body {
+  font-family: "Lato", sans-serif;
+}
+/**************************/
+/* HEADER */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  height: 4.6rem;
+  padding: 0.8rem 1.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 3.4rem;
+}
+/**************************/
+/* NAVIGATION */
+/**************************/
+.main-nav {
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.main-nav-link {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.6rem 1.8rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  cursor: pointer;
+  background-color: #010225;
+  color: #fff;
+  padding: 0.6rem 1.8rem;
+  border-radius: 9px;
+}
+.nav-cta {
+  background-color: red;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0.6rem 1.8rem;
+}
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: rgb(207, 0, 0);
+  border-radius: 9px;
+  color: #fff;
+  padding: 0.6rem 1.8rem;
+  cursor: pointer;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.hero-section {
+  padding: 0 12.8rem 9.6rem 12.8rem;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 4.8rem 0 0 0;
+}
+.hero-cta {
+  background-color: red;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-size: 1.6rem;
+}
+.hero-cta:hover,
+.hero-cta:active {
+  background-color: rgb(207, 0, 0);
+  border-radius: 9px;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.hero-txt {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  margin-top: 2.2rem;
+}
+.heading-primary {
+  font-size: 3.8rem;
+  line-height: 1.05;
+  margin: 0;
+}
+.hero-img-box {
+  align-self: center;
+  box-sizing: border-box;
+  padding: 0 0 0 8.2rem;
+}
